@@ -1,0 +1,71 @@
+﻿
+Data Collections
+
+- Bank transactions
+	Transaction
+		Amount
+		What
+		#Bank Account From
+		#Bank Account To
+		Why
+		When
+		How (Note)
+
+	Bank Account
+		Who
+		Where
+
+	Aggregation
+		Balance
+
+- Phone calls
+	Call
+		Type
+		Who
+		When
+
+	Aggregation
+		Time
+
+- Phone text
+	Message
+		Type
+		Who
+		When
+		What
+
+- Phone bills
+	Bill
+		From
+		Bill Item
+			What
+			Costs
+		When
+		#Transaction
+
+	Aggregation
+		Costs
+		Overtime
+
+- Emails
+	Email
+		From
+		To
+		When
+		What
+		Contents
+
+- Appointments
+	Appointment
+
+- Computer activity
+	Activities
+		When
+		What
+		Distraction
+		
+- Facebook data
+
+- Twitter data
+
+	
